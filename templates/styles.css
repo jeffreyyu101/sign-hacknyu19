@@ -1,0 +1,44 @@
+body{
+    background-color: #57068c;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#title-page{
+    height: 100vh;
+
+}
+
+#v-pills-tab{
+    background-color: white;
+    border-radius: 5px;
+    max-height: 300px;
+    overflow: auto;
+}
+
+#v-pills-tab, img{
+    max-width: 200px;
+}
+
+/*NAVBAR STUFF START------------------------------------------------------*/
+.vertical-menu {
+  width: 200px; /* Set a width if you like */
+}
+
+.vertical-menu a {
+  background-color: #eee; /* Grey background color */
+  color: black; /* Black text color */
+  display: block; /* Make the links appear below each other */
+  padding: 12px; /* Add some padding */
+  text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+  background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+  background-color: #4CAF50; /* Add a green color to the "active/current" link */
+  color: white;
+}
+/*NAVBAR STUFF END------------------------------------------------------*/
